@@ -1,0 +1,88 @@
+    1  sudo apt update
+    2  pwd
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd ..
+    7  ls 
+    8  cd home
+    9  ls
+   10  cd mate
+   11  cd ..
+   12  ls
+   13  cd mnt
+   14  ls
+   15  cd c
+   16  ls
+   17  cd Users/
+   18  ls
+   19  cd matias/
+   20  cd Downloads/
+   21  ls
+   22  clear
+   23  ls
+   24  mkdir elcode
+   25  cd elcode
+   26  code
+   27  sudo apt update
+   28  ls
+   29  cd mnt/c/users/mate/downloads
+   30  cd /
+   31  ls
+   32  cd mnt
+   33  ls
+   34  cd c
+   35  ls
+   36  cd users
+   37  ls
+   38  clear
+   39  ls
+   40  cd /
+   41  cd mnt/c/users/matiase/downloads
+   42  cd mnt/c/users/matias/downloads
+   43  ssh-keygen -t rsa -b 4096 -C "matias.ether@protonmail.com"
+   44  eval "$(ssh-agent -s)"
+   45  ssh-copy-id matias.ether@protonmail.com
+   46  cd /
+   47  cd ~/.ssh
+   48  ls
+   49  cd ~/
+   50  cd ~/.ssh
+   51  ls
+   52  cat id.rsa
+   53  cat id.rsa.pub
+   54  cat id_rsa.pub
+   55  ls
+   56  clear
+   57  cd /
+   58  ls
+   59  cd home
+   60  ls
+   61  cd mate
+   62  ls
+   63  cd /
+   64  "# CursoPrework" >> README.md
+   65  sudo -i
+   66  cd /
+   67  cd ~
+   68  pwd
+   69  ls -a
+   70  pwd
+   71  ls
+   72  cd /
+   73  cd mnt/c/users/mate/downloads
+   74  cd mnt/c/users/matias/downloads
+   75  ls -a
+   76  sudo apt install tree
+   77  mkdir 'Curso Git y Github'
+   78  cd Curso\ Git\ y\ Github/
+   79  touch vacio.txt
+   80  cat 'mensaje secreto' >> 'vacio.txt' 
+   81  'mensaje secreto' >> vacio.txt
+   82  echo 'mensaje secreto' >> vacio.txt
+   83  head vacio.txt
+   84  cat vacio.txt
+   85  clear
+   86  history
+   87  touch historialComandos.txt
+   88  history >> historialComandos.txt 
