@@ -1,1 +1,5 @@
 Archivo de registro fecha 30-12-22
+
+Git FETCH trae los cambios en el repositorio, pero no los archivos.
+Git MERGE trae los archivos actualizados, pero antes se debe hacer un fetch
+Git PULL trae los cambios al repositorio al mismo tiempo que se descargan los nuevos archivos de la ultima version.
