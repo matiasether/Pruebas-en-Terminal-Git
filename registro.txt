@@ -1,5 +1,27 @@
 Archivo de registro fecha 30-12-22
 
-Git FETCH trae los cambios en el repositorio, pero no los archivos.
-Git MERGE trae los archivos actualizados, pero antes se debe hacer un fetch
-Git PULL trae los cambios al repositorio al mismo tiempo que se descargan los nuevos archivos de la ultima version.
+Git FETCH trae los cambios del repositorio remoto al repositorio local, pero no los aplica de inmediato.
+ En lugar de ello, descarga los cambios en una nueva rama temporal,
+  lo que te permite revisar los cambios antes de aplicarlos a tu rama actual.
+
+Git PULL es una combinación de git fetch y git merge. 
+    Descarga los cambios del repositorio remoto y luego los aplica a tu rama actual de forma automática.
+
+Git MERGE fusiona los cambios de una rama con otra. Para poder hacerlo, 
+    primero debes tener los cambios en tu repositorio local, 
+        lo que puedes hacer con git fetch o git pull. 
+    Una vez que tienes los cambios en tu repositorio local, 
+        puedes usar git merge para aplicarlos a tu rama actual.
+
+
+
+Git BRANCH permite crear una nueva rama a partir de la rama actual. 
+    Esto es útil para crear una nueva versión de un proyecto sin afectar la rama principal.
+
+Git CHECKOUT te permite moverte entre ramas o versiones del proyecto.
+ Si especificas el nombre de una rama, te llevará a esa rama.
+ Si especificas una etiqueta de versión o un commit específico,
+ te llevará a esa versión del proyecto.
+
+HEAD es el último commit de la rama actual. Si realizas un commit en la rama, 
+    HEAD se actualizará para apuntar al nuevo commit.
