@@ -25,3 +25,12 @@ Git CHECKOUT te permite moverte entre ramas o versiones del proyecto.
 
 HEAD es el último commit de la rama actual. Si realizas un commit en la rama, 
     HEAD se actualizará para apuntar al nuevo commit.
+
+Git TAG es una forma de marcar un commit específico en el proyecto con un nombre o etiqueta.
+Esto es útil para marcar versiones especiales del proyecto, como lanzamientos o puntos de referencia importantes.
+Para crear un tag, primero debes ir a la rama en la que quieres crear el tag y luego ejecutar el comando "git tag nombre_del_tag".
+
+Si deseas agregar una nota al tag, puedes usar el comando  git tag -a nombre_del_tag -m "mensaje del tag" {numero del tag}.
+
+Una vez que hayas creado el tag, puedes publicarlo en el repositorio remoto con el comando "git push origin nombre_del_tag".
+Los tags son útiles para hacer seguimiento a las versiones importantes del proyecto y facilitar la colaboración con otros desarrolladores.
